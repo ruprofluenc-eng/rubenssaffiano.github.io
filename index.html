@@ -6,7 +6,16 @@
 <meta name="description" content="Ruben’s Saffiano — Affordable Luxury. Sacs à main, haute joaillerie, chaussures, ceintures, atelier de restauration et service client.">
 <meta property="og:title" content="Ruben’s Saffiano">
 <meta property="og:description" content="Affordable Luxury">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.VOTRE-DOMAINE.fr/">
+<meta property="og:image" content="https://www.VOTRE-DOMAINE.fr/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ruben’s Saffiano — Affordable Luxury">
 <meta name="theme-color" content="#090807">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{ box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); background:#090807; color-scheme:dark; }
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ background:#090807; } }
@@ -14,9 +23,6 @@
 html{ scroll-padding-top:env(safe-area-inset-top,0px); }
 body{ margin:0; background:#090807; }
 </style></head><body>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
 .rs{
@@ -25,7 +31,9 @@ body{ margin:0; background:#090807; }
   --serif:'Cormorant Garamond','Cormorant',Garamond,'Times New Roman',serif;
   --sans:'Inter','Helvetica Neue',Arial,sans-serif;
   --doux:cubic-bezier(.22,.61,.36,1);
-  box-sizing:border-box; min-height:100vh; display:grid; place-items:center;
+  box-sizing:border-box;
+  min-height:calc(100vh - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));
+  min-height:calc(100dvh - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px)); display:grid; place-items:center;
   padding:clamp(6px,3vw,40px);
   background:var(--dehors); color:var(--texte); text-align:left;
   font-family:var(--sans); font-size:16px; font-weight:400; line-height:1.5;
@@ -386,7 +394,7 @@ body{ margin:0; background:#090807; }
             </button>
             <div class="rs-tiroir" id="tiroir-joaillerie-prestige" role="region" aria-labelledby="tete-joaillerie-prestige">
               <div class="rs-tiroir-int"><nav class="rs-maisons" aria-label="Haute joaillerie, Prestige">
-                <a data-album="JOA-PRE-01" class="rs-ligne" href="https://wa.me/33695772805?text=Bonjour%2C%20je%20souhaite%20consulter%20l%E2%80%99album%20Van%20Cleef%20%26amp%3B%20Arpels%20%28Haute%20joaillerie%2C%20Prestige%29.%20R%C3%A9f.%20JOA-PRE-01" target="_blank" rel="noopener">
+                <a data-album="JOA-PRE-01" class="rs-ligne" href="https://wa.me/33695772805?text=Bonjour%2C%20je%20souhaite%20consulter%20l%E2%80%99album%20Van%20Cleef%20%26%20Arpels%20%28Haute%20joaillerie%2C%20Prestige%29.%20R%C3%A9f.%20JOA-PRE-01" target="_blank" rel="noopener">
                   <span class="rs-libelle">Van Cleef &amp; Arpels</span>
                   <span class="rs-type">Édition</span>
                   <svg class="rs-fleche" viewBox="0 0 7 12" aria-hidden="true"><path d="M1 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1"/></svg></a>
@@ -411,7 +419,7 @@ body{ margin:0; background:#090807; }
                   <span class="rs-type">Édition</span>
                   <svg class="rs-fleche" viewBox="0 0 7 12" aria-hidden="true"><path d="M1 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1"/></svg></a>
                 
-                <a data-album="JOA-PRE-06" class="rs-ligne" href="https://wa.me/33695772805?text=Bonjour%2C%20je%20souhaite%20consulter%20l%E2%80%99album%20Tiffany%20%26amp%3B%20Co.%20%28Haute%20joaillerie%2C%20Prestige%29.%20R%C3%A9f.%20JOA-PRE-06" target="_blank" rel="noopener">
+                <a data-album="JOA-PRE-06" class="rs-ligne" href="https://wa.me/33695772805?text=Bonjour%2C%20je%20souhaite%20consulter%20l%E2%80%99album%20Tiffany%20%26%20Co.%20%28Haute%20joaillerie%2C%20Prestige%29.%20R%C3%A9f.%20JOA-PRE-06" target="_blank" rel="noopener">
                   <span class="rs-libelle">Tiffany &amp; Co.</span>
                   <span class="rs-type">Édition</span>
                   <svg class="rs-fleche" viewBox="0 0 7 12" aria-hidden="true"><path d="M1 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1"/></svg></a>
@@ -431,7 +439,7 @@ body{ margin:0; background:#090807; }
                   <span class="rs-type">Édition</span>
                   <svg class="rs-fleche" viewBox="0 0 7 12" aria-hidden="true"><path d="M1 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1"/></svg></a>
                 
-                <a data-album="JOA-ESS-02" class="rs-ligne" href="https://wa.me/33695772805?text=Bonjour%2C%20je%20souhaite%20consulter%20l%E2%80%99album%20Van%20Cleef%20%26amp%3B%20Arpels%20%28Haute%20joaillerie%2C%20Essentiel%29.%20R%C3%A9f.%20JOA-ESS-02" target="_blank" rel="noopener">
+                <a data-album="JOA-ESS-02" class="rs-ligne" href="https://wa.me/33695772805?text=Bonjour%2C%20je%20souhaite%20consulter%20l%E2%80%99album%20Van%20Cleef%20%26%20Arpels%20%28Haute%20joaillerie%2C%20Essentiel%29.%20R%C3%A9f.%20JOA-ESS-02" target="_blank" rel="noopener">
                   <span class="rs-libelle">Van Cleef &amp; Arpels</span>
                   <span class="rs-type">Édition</span>
                   <svg class="rs-fleche" viewBox="0 0 7 12" aria-hidden="true"><path d="M1 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1"/></svg></a>
@@ -646,42 +654,42 @@ body{ margin:0; background:#090807; }
    puis collez-le entre les guillemets du code correspondant ci-dessous.
    Tant qu'un lien est vide, la ligne ouvre WhatsApp avec une demande pour cet album. */
 var ALBUMS = {
-  "SAC-PRE-01": "https://canva.link/a3bjnhwiczuzra3",    // Chanel
-  "SAC-PRE-02": "https://canva.link/w3i8jhqfbv8ad1q",    // Louis Vuitton
-  "SAC-PRE-03": "https://canva.link/dlak7gssp2pogvv",    // Fendi
-  "SAC-PRE-04": "https://canva.link/pl0sq6at826x4hb",    // Hermès
-  "SAC-PRE-05": "https://canva.link/cppq4j6xcostbck",    // Prada
-  "SAC-PRE-06": "https://canva.link/t3obkqknppclruu",    // Loewe
-  "SAC-PRE-07": "https://canva.link/aj5nmy778k55xvy",    // Miu Miu
-  "SAC-PRE-08": "https://canva.link/a0ox33tg6pidcaf",    // Bottega Veneta
-  "SAC-PRE-09": "https://canva.link/mf2mv4xtf8a6kd6",    // Saint Laurent
-  "SAC-PRE-10": "https://canva.link/ksvi3rpwl26xnho",    // Goyard
-  "SAC-PRE-11": "https://canva.link/qcnl05vjqwfulst",    // Céline
-  "SAC-PRE-12": "https://canva.link/im2pqspcdtsxkoa",    // Christian Dior
-  "SAC-PRM-01": "https://canva.link/i897mx2s4qg8l1p",    // Louis Vuitton
-  "SAC-PRM-02": "https://canva.link/ai4920v8qerqlyh",    // Prada
-  "SAC-PRM-03": "https://canva.link/i4yvlyfsl747t2q",    // Goyard
-  "SAC-PRM-04": "https://canva.link/7h4585p79qignc0",    // Saint Laurent
-  "SAC-PRM-05": "https://canva.link/au1dyuhgoxxqtb6",    // Dior
-  "SAC-PRM-06": "https://canva.link/1arnsz8lqsnhghq",    // Céline
-  "SAC-ESS-01": "https://canva.link/97ppjyzmf6h989t",    // Sélection multi-marques
-  "JOA-PRE-01": "https://canva.link/l4ne2e19gi6k88c",    // Van Cleef & Arpels
-  "JOA-PRE-02": "https://canva.link/cyitw7p9rgkoy4v",    // Chanel
-  "JOA-PRE-03": "https://canva.link/hmyda15ga4oqimm",    // Cartier
-  "JOA-PRE-04": "https://canva.link/95ipomt96vyaa75",    // Fred
-  "JOA-PRE-05": "https://canva.link/gsfif654dqhhj13",    // Bvlgari
-  "JOA-PRE-06": "https://canva.link/v6z4lhijhnqv060",    // Tiffany & Co.
-  "JOA-ESS-01": "https://canva.link/4xdi7g52g63f67k",    // Cartier
-  "JOA-ESS-02": "https://canva.link/pn3wp9px0009vn8",    // Van Cleef & Arpels
-  "JOA-ESS-03": "https://canva.link/3wfqun6pbzgipur",    // Bvlgari
-  "CHA-PRE-01": "https://canva.link/3s9pvmw19jqjv6f",    // Hermès
-  "CHA-PRE-02": "https://canva.link/vzishu9zh7rz55i",    // Chanel
-  "CEI-PRE-01": "https://canva.link/ujcjgyiclvx9qt1",    // Hermès
-  "CEI-PRE-02": "https://canva.link/zxaphyfczm99q8h",    // Louis Vuitton
-  "CEI-PRE-03": "https://canva.link/zpb2thbw7rp4cbh",    // Tom Ford
-  "CEI-PRE-04": "https://canva.link/tafnrt4k2ah6k34",    // Chrome Hearts
-  "CEI-PRE-05": "https://canva.link/kjz5gukxa7p7g9i",    // Céline
-  "ATL-PRE-01": "https://canva.link/e5qqcjrje5p25ac"     // Atelier Restauration, Rachat & Redorage
+  "SAC-PRE-01": "https://canva.link/e5qqcjrje5p25ac",    // Chanel
+  "SAC-PRE-02": "https://canva.link/kjz5gukxa7p7g9i",    // Louis Vuitton
+  "SAC-PRE-03": "https://canva.link/tafnrt4k2ah6k34",    // Fendi
+  "SAC-PRE-04": "https://canva.link/zpb2thbw7rp4cbh",    // Hermès
+  "SAC-PRE-05": "https://canva.link/zxaphyfczm99q8h",    // Prada
+  "SAC-PRE-06": "https://canva.link/ujcjgyiclvx9qt1",    // Loewe
+  "SAC-PRE-07": "https://canva.link/vzishu9zh7rz55i",    // Miu Miu
+  "SAC-PRE-08": "https://canva.link/3s9pvmw19jqjv6f",    // Bottega Veneta
+  "SAC-PRE-09": "https://canva.link/3wfqun6pbzgipur",    // Saint Laurent
+  "SAC-PRE-10": "https://canva.link/pn3wp9px0009vn8",    // Goyard
+  "SAC-PRE-11": "https://canva.link/4xdi7g52g63f67k",    // Céline
+  "SAC-PRE-12": "https://canva.link/v6z4lhijhnqv060",    // Christian Dior
+  "SAC-PRM-01": "https://canva.link/gsfif654dqhhj13",    // Louis Vuitton
+  "SAC-PRM-02": "https://canva.link/95ipomt96vyaa75",    // Prada
+  "SAC-PRM-03": "https://canva.link/hmyda15ga4oqimm",    // Goyard
+  "SAC-PRM-04": "https://canva.link/cyitw7p9rgkoy4v",    // Saint Laurent
+  "SAC-PRM-05": "https://canva.link/l4ne2e19gi6k88c",    // Dior
+  "SAC-PRM-06": "https://canva.link/97ppjyzmf6h989t",    // Céline
+  "SAC-ESS-01": "https://canva.link/1arnsz8lqsnhghq",    // Sélection multi-marques
+  "JOA-PRE-01": "https://canva.link/au1dyuhgoxxqtb6",    // Van Cleef & Arpels
+  "JOA-PRE-02": "https://canva.link/7h4585p79qignc0",    // Chanel
+  "JOA-PRE-03": "https://canva.link/i4yvlyfsl747t2q",    // Cartier
+  "JOA-PRE-04": "https://canva.link/ai4920v8qerqlyh",    // Fred
+  "JOA-PRE-05": "https://canva.link/i897mx2s4qg8l1p",    // Bvlgari
+  "JOA-PRE-06": "https://canva.link/im2pqspcdtsxkoa",    // Tiffany & Co.
+  "JOA-ESS-01": "https://canva.link/qcnl05vjqwfulst",    // Cartier
+  "JOA-ESS-02": "https://canva.link/ksvi3rpwl26xnho",    // Van Cleef & Arpels
+  "JOA-ESS-03": "https://canva.link/mf2mv4xtf8a6kd6",    // Bvlgari
+  "CHA-PRE-01": "https://canva.link/a0ox33tg6pidcaf",    // Hermès
+  "CHA-PRE-02": "https://canva.link/aj5nmy778k55xvy",    // Chanel
+  "CEI-PRE-01": "https://canva.link/t3obkqknppclruu",    // Hermès
+  "CEI-PRE-02": "https://canva.link/cppq4j6xcostbck",    // Louis Vuitton
+  "CEI-PRE-03": "https://canva.link/pl0sq6at826x4hb",    // Tom Ford
+  "CEI-PRE-04": "https://canva.link/dlak7gssp2pogvv",    // Chrome Hearts
+  "CEI-PRE-05": "https://canva.link/w3i8jhqfbv8ad1q",    // Céline
+  "ATL-PRE-01": "https://canva.link/a3bjnhwiczuzra3"     // Atelier Restauration, Rachat & Redorage
 };
 (function(){
   var liens=document.querySelectorAll('a[data-album]');
